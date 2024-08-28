@@ -1,0 +1,96 @@
+:root{
+    --light-blue-100 : #f3fcf4;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+    background-color: var(--light-blue-100);
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    
+}
+.container_titulo {
+    display: flex;
+    width: 622px;
+    height: 48px;
+    padding: 140px;
+}
+.container_titulo h1{
+  
+    font-size: 32px;
+}
+.container_links_input {
+    background-color: var(--light-blue-100);
+    border: none;
+    width: 400px;
+    height: 400px;
+}
+
+.container_links{
+    display: flex;
+    height: 67px;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.container_links a{
+    padding: 24px;
+    border-radius: 24px;
+    width: 328px;
+    justify-content: center;
+    gap: 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #D8DFE8;
+    font-weight: 400;
+    display: flex;
+
+}
+
+.container_entrada_logo{
+    width: 120px;
+    height: 48px;
+    margin: 40px;
+}
+
+.container_entrada_saida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 400px;
+    height: 944px;
+    margin-left: 400px;
+    border-radius: 32px;
+    gap:16px;
+    background-color: #22f4;
+    
+}
+
+.container_entrada_saida_texto {
+    width: 236px;
+    height: 122px;
+    text-align: center;
+    gap: 16px;
+}
+
+.container_entrada_saida_texto h1{
+    font-weight: 700;
+    line-height: 24px;
+    height: 58px;
+}
+
+.container_entrada_saida_texto p{
+    line-height: 16px;
+    height: 48px;
+}
